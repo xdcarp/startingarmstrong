@@ -15,13 +15,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{CD6DE5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3DF3CB88-3A20-4077-9800-498A23477CD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Armstrong.Domain", "Armstrong.Domain\Armstrong.Domain.csproj", "{894DF4B3-7EB5-4E81-81A4-C92CAF799320}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Armstrong.Domain", "Armstrong.Domain\Armstrong.Domain.csproj", "{894DF4B3-7EB5-4E81-81A4-C92CAF799320}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Armstrong.Application", "Armstrong.Application\Armstrong.Application.csproj", "{47DA8D3A-9865-499F-BC1F-FA8B1DC5A105}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Armstrong.Application", "Armstrong.Application\Armstrong.Application.csproj", "{47DA8D3A-9865-499F-BC1F-FA8B1DC5A105}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Armstrong.Common", "Armstrong.Common\Armstrong.Common.csproj", "{0B47E523-B550-495E-84FE-3AB2D902D7F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Armstrong.Common", "Armstrong.Common\Armstrong.Common.csproj", "{0B47E523-B550-495E-84FE-3AB2D902D7F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Armstrong.Infrastructure", "Armstrong.Infrastructure\Armstrong.Infrastructure.csproj", "{44D37960-EFAD-4D59-B124-1D48EB8C5817}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Armstrong.Infrastructure", "Armstrong.Infrastructure\Armstrong.Infrastructure.csproj", "{44D37960-EFAD-4D59-B124-1D48EB8C5817}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Armstrong.WebApi", "Armstrong.WebApi\Armstrong.WebApi.csproj", "{3884B51C-C661-4A0E-98D9-107E56F52F1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Armstrong.WebClient", "Armstrong.WebClient\Armstrong.WebClient.csproj", "{8DC508FA-ACB1-4933-B661-134FC7D694F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{44D37960-EFAD-4D59-B124-1D48EB8C5817}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44D37960-EFAD-4D59-B124-1D48EB8C5817}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44D37960-EFAD-4D59-B124-1D48EB8C5817}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3884B51C-C661-4A0E-98D9-107E56F52F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3884B51C-C661-4A0E-98D9-107E56F52F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3884B51C-C661-4A0E-98D9-107E56F52F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3884B51C-C661-4A0E-98D9-107E56F52F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DC508FA-ACB1-4933-B661-134FC7D694F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC508FA-ACB1-4933-B661-134FC7D694F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DC508FA-ACB1-4933-B661-134FC7D694F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DC508FA-ACB1-4933-B661-134FC7D694F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +68,8 @@ Global
 		{47DA8D3A-9865-499F-BC1F-FA8B1DC5A105} = {C2398114-B93B-4B21-9909-B9C181EE8797}
 		{0B47E523-B550-495E-84FE-3AB2D902D7F4} = {CD6DE5FF-CFA1-4528-9698-C4E2BF378424}
 		{44D37960-EFAD-4D59-B124-1D48EB8C5817} = {3DF3CB88-3A20-4077-9800-498A23477CD8}
+		{3884B51C-C661-4A0E-98D9-107E56F52F1A} = {2B055E41-C48E-4DD0-8F2D-ADD500BCC160}
+		{8DC508FA-ACB1-4933-B661-134FC7D694F1} = {2B055E41-C48E-4DD0-8F2D-ADD500BCC160}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {24F9FD98-5148-470D-8514-FC8ECB03AB6C}
