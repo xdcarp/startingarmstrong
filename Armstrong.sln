@@ -23,9 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Armstrong.Common", "Armstro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Armstrong.Infrastructure", "Armstrong.Infrastructure\Armstrong.Infrastructure.csproj", "{44D37960-EFAD-4D59-B124-1D48EB8C5817}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Armstrong.WebApi", "Armstrong.WebApi\Armstrong.WebApi.csproj", "{3884B51C-C661-4A0E-98D9-107E56F52F1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Armstrong.WebApi", "Armstrong.WebApi\Armstrong.WebApi.csproj", "{3884B51C-C661-4A0E-98D9-107E56F52F1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Armstrong.WebClient", "Armstrong.WebClient\Armstrong.WebClient.csproj", "{8DC508FA-ACB1-4933-B661-134FC7D694F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Armstrong.WebClient", "Armstrong.WebClient\Armstrong.WebClient.csproj", "{8DC508FA-ACB1-4933-B661-134FC7D694F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

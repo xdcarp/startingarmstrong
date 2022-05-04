@@ -6,7 +6,7 @@ namespace Armstrong.Application.Extensions
     /// <summary>
     /// Extensions of IQueryable
     /// </summary>
-    public static class IQueryableExtensions
+    public static class QueryableExtensions
     {
         /// <summary>
         /// Generates a paginated list based on an IQueryable source

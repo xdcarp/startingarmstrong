@@ -1,0 +1,8 @@
+﻿@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize]
+
+@page "/authorizedpage"
+
+<h3>Authorized view</h3>
+
+Hello @userName, you're authorized to see this entire page.
